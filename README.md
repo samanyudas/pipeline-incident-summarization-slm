@@ -40,7 +40,16 @@ Findings:
 - More training passes lowered loss while adding invented details.
 - With 39 examples, the dataset is the main limit; common guidance suggests 200 to 500.
 
-Five development cases cannot separate differences of a few points from noise, and scoring was done by a single assistant reviewer.
+## Shortcomings
+
+The evidence is weaker than the table suggests.
+The main problems are listed here; the full list is in [docs/results.md](docs/results.md#shortcomings).
+
+- **Tiny, reused evaluation set.** Five development reports cannot separate small differences from noise, and they were read repeatedly while choosing experiments. The final test was never run, so there is no held-out estimate.
+- **One non-independent scorer.** An AI assistant did all the scoring, had also drafted some references, and made two arithmetic errors that were caught later. There was no second rater and no automatic numeric check.
+- **Too little data.** 39 training examples, where 200 to 500 is the usual recommendation; one person reviewed them and no pipeline specialist checked the causal judgments.
+- **Weak training setup.** Most runs used a learning rate later shown to be too low, a single seed, no validation loss, and only the final layer, because of the 16 GiB laptop. No rented GPU was used.
+- **Confounded best result.** The 14/30 run changed several settings at once, relies on an untuned repetition penalty that hurt the untrained model, and gets some format points from post-processing.
 
 ## Repository layout
 

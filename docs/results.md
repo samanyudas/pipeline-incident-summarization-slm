@@ -107,12 +107,43 @@ The persistent failure types across all runs are:
 - sequence reversals, such as a release placed after discovery or during excavation;
 - invented locations and quantities.
 
-## Limits of this evidence
+## Shortcomings
 
-Five development cases cannot distinguish a real change of a few points from run-to-run variation; all ten MLX configurations scored between 4 and 13.
-The development cases were inspected repeatedly while choosing experiments, so they are not unseen data.
-Scoring is by one assistant reviewer, and no pipeline specialist validated the reference answers' causal judgments.
-The final-test set was preserved and never examined, so no held-out estimate exists.
+These weaknesses limit what the results can show.
+They are listed so that the conclusions are not read as stronger than the evidence.
+
+### Evaluation
+
+- Five development cases cannot separate a real change of a few points from noise; most configurations landed between 8 and 14 of 30.
+- The development cases were read repeatedly while choosing experiments, so they are no longer unseen data, and choices may be tuned to them.
+- The final-test set was never run, so there is no held-out estimate of any configuration.
+- One assistant reviewer did all scoring, with no second rater and no agreement check.
+- The same assistant drafted some references and scored the outputs, so the scorer was not independent of the targets.
+- Scoring errors happened and were caught later: one total was misadded (9 instead of 10) and another was first tallied as 15 before being corrected to 14.
+- The six rules are binary and coarse: one wrong phrase can fail two rules, and a mostly good answer and a poor one can score alike.
+- Scoring was manual only; there was no automatic check of numbers against the source, repetition rate, human usefulness rating, latency, or cost.
+
+### Data
+
+- Only 39 training examples exist under the operator exclusion, well below the 200 to 500 often recommended.
+- One person reviewed the references, and no pipeline specialist validated their causal judgments.
+- Six training reports are non-final ORIGINAL filings whose findings may change in later supplements.
+
+### Training
+
+- Most runs used learning rate 1e-5, which later proved too low to change the model's behavior; higher rates were explored only near the end.
+- Every run used one seed (0), so training randomness was not measured.
+- No validation loss was tracked, so overfitting was judged only from outputs.
+- The recipe differed from common practice: batch size 1, no gradient accumulation, no dropout, no packing, and only the final layer adapted.
+- The 16 GiB laptop limited adaptation to the final layer; no run used a rented GPU, where all-linear QLoRA would fit.
+- The V8 sweep changed rank, target modules, scaling, learning rate, and schedule together relative to V7, breaking the one-change rule, so its gains cannot be assigned to a single setting.
+
+### Generation and post-processing
+
+- The best score depends on a repetition penalty (1.1, 64-token window) chosen once and not tuned; the same penalty lowered the untrained model from 13 to 9.
+- Heading normalization fixes markup after generation; the format points it recovers are not model ability.
+- Some probes, such as the untrained 0.8B readable run and the 2B JSON baseline, were read but never formally scored.
+- The earlier llama-cli results use a different backend and cannot be compared with the MLX results.
 
 ## Recommendation
 

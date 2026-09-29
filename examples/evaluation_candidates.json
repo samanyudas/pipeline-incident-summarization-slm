@@ -1,0 +1,36 @@
+{
+  "purpose": "Held-out baseline and later fine-tuning evaluation candidates. Do not include these report IDs or operators in training.",
+  "source_sha256": "47ee8c831c893ab27c0cbf473eb28e2bf976136a3bf41669872c07bd33761979",
+  "selection": [
+    {
+      "report_number": "20260017",
+      "operator_id": "32296",
+      "apparent_cause": "EQUIPMENT FAILURE",
+      "report_type": "ORIGINAL FINAL"
+    },
+    {
+      "report_number": "20240033",
+      "operator_id": "2616",
+      "apparent_cause": "CORROSION FAILURE",
+      "report_type": "SUPPLEMENTAL FINAL"
+    },
+    {
+      "report_number": "20260009",
+      "operator_id": "31130",
+      "apparent_cause": "EXCAVATION DAMAGE",
+      "report_type": "SUPPLEMENTAL FINAL"
+    },
+    {
+      "report_number": "20260015",
+      "operator_id": "32099",
+      "apparent_cause": "INCORRECT OPERATION",
+      "report_type": "SUPPLEMENTAL FINAL"
+    },
+    {
+      "report_number": "20250011",
+      "operator_id": "39491",
+      "apparent_cause": "NATURAL FORCE DAMAGE",
+      "report_type": "SUPPLEMENTAL FINAL"
+    }
+  ]
+}

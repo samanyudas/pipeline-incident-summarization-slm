@@ -1,0 +1,37 @@
+{
+  "purpose": "Frozen final test reserve. Do not use these reports or their operators for prompt design, training, or development scoring.",
+  "source_sha256": "47ee8c831c893ab27c0cbf473eb28e2bf976136a3bf41669872c07bd33761979",
+  "selection_basis": "One final report per distinct operator, outside the five development operators, chosen using metadata only to cover five cause categories.",
+  "selection": [
+    {
+      "report_number": "20230005",
+      "operator_id": "4060",
+      "apparent_cause": "CORROSION FAILURE",
+      "report_type": "SUPPLEMENTAL FINAL"
+    },
+    {
+      "report_number": "20250004",
+      "operator_id": "39368",
+      "apparent_cause": "EQUIPMENT FAILURE",
+      "report_type": "SUPPLEMENTAL FINAL"
+    },
+    {
+      "report_number": "20230004",
+      "operator_id": "39156",
+      "apparent_cause": "INCORRECT OPERATION",
+      "report_type": "SUPPLEMENTAL FINAL"
+    },
+    {
+      "report_number": "20240034",
+      "operator_id": "39099",
+      "apparent_cause": "MATERIAL FAILURE OF PIPE OR WELD",
+      "report_type": "SUPPLEMENTAL FINAL"
+    },
+    {
+      "report_number": "20240032",
+      "operator_id": "40236",
+      "apparent_cause": "NATURAL FORCE DAMAGE",
+      "report_type": "SUPPLEMENTAL FINAL"
+    }
+  ]
+}

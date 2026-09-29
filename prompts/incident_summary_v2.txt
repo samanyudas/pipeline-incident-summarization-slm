@@ -1,0 +1,24 @@
+Write exactly seven short bullet points in this order, each beginning with the shown label:
+- When:
+- Where:
+- What failed:
+- What happened:
+- Root cause:
+- Contributing factors:
+- Evidence / certainty:
+
+Use only the incident fields supplied below.
+Keep each bullet to one or two sentences and do not repeat facts.
+Treat LOCAL_DATETIME as the recorded incident time and INCIDENT_IDENTIFIED_DATETIME as the recorded discovery time.
+If either time differs from the narrative, show the differing values and say the record does not explain the difference.
+Name the physical failed item and failure mode, or say the mode is not identified.
+Do not call an alarm or emergency shutdown a failure when the record says it worked.
+For Root cause, state the operator's CAUSE and CAUSE_DETAILS as the apparent cause, then add only the mechanism supported by the narrative or examination.
+If a deeper cause is suspected or unknown, say so explicitly.
+For Contributing factors, include only one to three supported factors that helped cause the failure, or say none are established.
+Do not list consequences, discovery methods, repairs, absent evidence, or suspected causes as established contributing factors.
+For Evidence / certainty, name the evidence actually present and separate observations from the operator's conclusion.
+Do not claim an analysis or test result that the input does not provide.
+Preserve every stated number, unit, and YES or NO value.
+MCF means thousand cubic feet.
+Do not reverse statements such as "within normal range" or "no prior notification."

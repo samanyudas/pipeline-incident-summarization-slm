@@ -1,0 +1,46 @@
+{
+  "source_id": "phmsa-type-r-incidents",
+  "publisher": "U.S. Department of Transportation, Pipeline and Hazardous Materials Safety Administration",
+  "dataset_title": "Type R (Reporting-Regulated) Gas Gathering Incident Data - May 2022 to Present",
+  "source_url": "https://www.phmsa.dot.gov/data-and-statistics/pipeline/distribution-transmission-gathering-lng-and-liquid-accident-and-incident-data",
+  "download_url": "https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/data_statistics/pipeline/incident_type_r_reporting_regulated_gas_gathering_may2022_present.zip",
+  "source_url_provided_by": "user",
+  "landing_page_verified_at": "2026-09-27",
+  "landing_page_last_updated": "2026-09-02",
+  "downloaded_at": null,
+  "archive_compared_to_local_files": false,
+  "rights_status": "publisher_public_domain_designation_found",
+  "training_permission": null,
+  "commercial_use_permitted": null,
+  "redistribution_permitted": null,
+  "notes": [
+    "Landing page lists this dataset and instructs tab-delimited import with no text qualifier.",
+    "Local file hashes identify the existing project snapshot; they do not establish equality with the current remote archive.",
+    "Original download date is unknown. Page verification date is not the acquisition date.",
+    "No dataset-specific rights conclusion was established by this provenance check.",
+    "Date-added metadata is not an acquisition timestamp; downloaded-date and origin metadata were absent. See docs/source_rights.md.",
+    "Official Data.gov series metadata supplies a public-domain license label, superseding the earlier absence-of-license finding. The legacy label redirects to general USAGov copyright guidance; no separate Type R training-specific license was found."
+  ],
+  "local_files": [
+    {
+      "filename": "Type R (Reporting-Regulated) Gas Gathering Incident PHMSA F 7100.2.2 Rev 3-2022 Data Fields.pdf",
+      "bytes": 441456,
+      "sha256": "fa302a0736b7b5db1b50860c41760679c8815fd18315f92241b8823a96ad9d4a"
+    },
+    {
+      "filename": "incident_type_r_reporting_regulated_gas_gathering_may2022_present.txt",
+      "bytes": 321265,
+      "sha256": "47ee8c831c893ab27c0cbf473eb28e2bf976136a3bf41669872c07bd33761979"
+    }
+  ],
+  "rights_reviewed_at": "2026-09-27",
+  "public_download_permitted": true,
+  "rights_evidence_url": "https://www.phmsa.dot.gov/about-phmsa/web-policies",
+  "local_date_added_utc": "2026-09-26T10:08:25Z",
+  "license_label": "http://www.usa.gov/publicdomain/label/1.0/",
+  "license_evidence_url": "https://catalog.data.gov/dataset/gas-distribution-gas-transmission-gathering-lng-incidents-and-hazardous-liquid-accident-an",
+  "license_evidence_scope": "PHMSA incident-data series; resource URL matches the landing page containing Type R data",
+  "training_permission_basis": "Project inference from publisher public-domain designation; not an express model-training grant",
+  "commercial_use_basis": "Publisher public-domain designation; no separate commercial authorization obtained",
+  "redistribution_basis": "Publisher public-domain designation; project data remains local by choice"
+}

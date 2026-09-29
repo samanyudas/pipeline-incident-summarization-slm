@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "status": "candidates_only_not_reviewed_training_data",
+  "source_sha256": "47ee8c831c893ab27c0cbf473eb28e2bf976136a3bf41669872c07bd33761979",
+  "excluded_operator_ids": [
+    "2616",
+    "31130",
+    "32099",
+    "32296",
+    "39099",
+    "39156",
+    "39368",
+    "39491",
+    "40236",
+    "4060"
+  ],
+  "source_report_count": 111,
+  "eligible_report_count": 39,
+  "eligible_final_report_count": 33,
+  "includes_nonfinal_reports": true,
+  "candidate_operator_count": 22,
+  "cause_counts": {
+    "CORROSION FAILURE": 3,
+    "EQUIPMENT FAILURE": 11,
+    "EXCAVATION DAMAGE": 3,
+    "INCORRECT OPERATION": 6,
+    "MATERIAL FAILURE OF PIPE OR WELD": 4,
+    "NATURAL FORCE DAMAGE": 4,
+    "OTHER INCIDENT CAUSE": 6,
+    "OTHER OUTSIDE FORCE DAMAGE": 2
+  },
+  "selection": [
+    {
+      "report_number": "20220001",
+      "operator_id": "31202",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "CORROSION FAILURE"
+    },
+    {
+      "report_number": "20220002",
+      "operator_id": "31618",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "MATERIAL FAILURE OF PIPE OR WELD"
+    },
+    {
+      "report_number": "20220004",
+      "operator_id": "30711",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "INCORRECT OPERATION"
+    },
+    {
+      "report_number": "20220005",
+      "operator_id": "31618",
+      "report_type": "ORIGINAL",
+      "apparent_cause": "EXCAVATION DAMAGE"
+    },
+    {
+      "report_number": "20220006",
+      "operator_id": "39147",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "EQUIPMENT FAILURE"
+    },
+    {
+      "report_number": "20230001",
+      "operator_id": "39844",
+      "report_type": "ORIGINAL",
+      "apparent_cause": "NATURAL FORCE DAMAGE"
+    },
+    {
+      "report_number": "20230002",
+      "operator_id": "30629",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "INCORRECT OPERATION"
+    },
+    {
+      "report_number": "20230003",
+      "operator_id": "30826",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "MATERIAL FAILURE OF PIPE OR WELD"
+    },
+    {
+      "report_number": "20230006",
+      "operator_id": "31618",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "CORROSION FAILURE"
+    },
+    {
+      "report_number": "20230008",
+      "operator_id": "39216",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "EQUIPMENT FAILURE"
+    },
+    {
+      "report_number": "20230009",
+      "operator_id": "30711",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "EQUIPMENT FAILURE"
+    },
+    {
+      "report_number": "20230015",
+      "operator_id": "2714",
+      "report_type": "ORIGINAL FINAL",
+      "apparent_cause": "NATURAL FORCE DAMAGE"
+    },
+    {
+      "report_number": "20230021",
+      "operator_id": "39950",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "EQUIPMENT FAILURE"
+    },
+    {
+      "report_number": "20230022",
+      "operator_id": "32634",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "OTHER OUTSIDE FORCE DAMAGE"
+    },
+    {
+      "report_number": "20240002",
+      "operator_id": "31719",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "INCORRECT OPERATION"
+    },
+    {
+      "report_number": "20240007",
+      "operator_id": "31582",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "NATURAL FORCE DAMAGE"
+    },
+    {
+      "report_number": "20240008",
+      "operator_id": "31719",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "EQUIPMENT FAILURE"
+    },
+    {
+      "report_number": "20240011",
+      "operator_id": "39786",
+      "report_type": "ORIGINAL FINAL",
+      "apparent_cause": "OTHER INCIDENT CAUSE"
+    },
+    {
+      "report_number": "20240021",
+      "operator_id": "22465",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "EXCAVATION DAMAGE"
+    },
+    {
+      "report_number": "20240026",
+      "operator_id": "22465",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "MATERIAL FAILURE OF PIPE OR WELD"
+    },
+    {
+      "report_number": "20240028",
+      "operator_id": "31618",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "EQUIPMENT FAILURE"
+    },
+    {
+      "report_number": "20250002",
+      "operator_id": "473",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "INCORRECT OPERATION"
+    },
+    {
+      "report_number": "20250007",
+      "operator_id": "39950",
+      "report_type": "ORIGINAL FINAL",
+      "apparent_cause": "OTHER INCIDENT CAUSE"
+    },
+    {
+      "report_number": "20250013",
+      "operator_id": "40149",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "EQUIPMENT FAILURE"
+    },
+    {
+      "report_number": "20250014",
+      "operator_id": "32634",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "INCORRECT OPERATION"
+    },
+    {
+      "report_number": "20250016",
+      "operator_id": "30711",
+      "report_type": "ORIGINAL FINAL",
+      "apparent_cause": "EQUIPMENT FAILURE"
+    },
+    {
+      "report_number": "20250018",
+      "operator_id": "38947",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "OTHER INCIDENT CAUSE"
+    },
+    {
+      "report_number": "20250024",
+      "operator_id": "39112",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "EQUIPMENT FAILURE"
+    },
+    {
+      "report_number": "20250025",
+      "operator_id": "22465",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "OTHER INCIDENT CAUSE"
+    },
+    {
+      "report_number": "20250029",
+      "operator_id": "40128",
+      "report_type": "ORIGINAL",
+      "apparent_cause": "CORROSION FAILURE"
+    },
+    {
+      "report_number": "20250030",
+      "operator_id": "22465",
+      "report_type": "ORIGINAL FINAL",
+      "apparent_cause": "EXCAVATION DAMAGE"
+    },
+    {
+      "report_number": "20250032",
+      "operator_id": "39112",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "OTHER INCIDENT CAUSE"
+    },
+    {
+      "report_number": "20260001",
+      "operator_id": "39033",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "INCORRECT OPERATION"
+    },
+    {
+      "report_number": "20260003",
+      "operator_id": "40149",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "EQUIPMENT FAILURE"
+    },
+    {
+      "report_number": "20260006",
+      "operator_id": "32634",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "NATURAL FORCE DAMAGE"
+    },
+    {
+      "report_number": "20260010",
+      "operator_id": "32634",
+      "report_type": "ORIGINAL",
+      "apparent_cause": "OTHER INCIDENT CAUSE"
+    },
+    {
+      "report_number": "20260012",
+      "operator_id": "39070",
+      "report_type": "ORIGINAL",
+      "apparent_cause": "OTHER OUTSIDE FORCE DAMAGE"
+    },
+    {
+      "report_number": "20260013",
+      "operator_id": "22465",
+      "report_type": "SUPPLEMENTAL FINAL",
+      "apparent_cause": "MATERIAL FAILURE OF PIPE OR WELD"
+    },
+    {
+      "report_number": "20260018",
+      "operator_id": "39112",
+      "report_type": "ORIGINAL",
+      "apparent_cause": "EQUIPMENT FAILURE"
+    }
+  ],
+  "excluded_nonfinal_report_numbers": []
+}

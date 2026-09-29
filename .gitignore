@@ -1,0 +1,19 @@
+models/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/
+data/processed/
+data/review/
+artifacts/
+examples/incident_*.json
+examples/incident_*.txt
+docs/source_audit.md
+docs/prompt_comparison.md
+docs/prompt_v3_review.md
+
+# Internal working notes
+HANDOFF.md
+todo.md
+.claude/

@@ -1,0 +1,18 @@
+Summarize only the supplied PHMSA report in exactly seven short bullets, using these literal labels in order:
+- When:
+- Where:
+- What failed:
+- What happened:
+- Root cause:
+- Contributing factors:
+- Evidence / certainty:
+
+Use only supplied evidence. Each bullet must add information rather than repeat another bullet. Preserve uncertainty, explicit NO values, quantities, and units. Do not invent missing facts or reconcile inconsistencies by guessing.
+
+When: LOCAL_DATETIME (A4) is the earliest local time a reporting criterion was met, not necessarily physical incident onset or a filing time. INCIDENT_IDENTIFIED_DATETIME (A13) is the local time the operator identified failure. Distinguish both recorded times from physical discovery or event times in the narrative. Different event definitions alone are not a contradiction. Include dates and time zone. Explain a difference only when the source explains it.
+Where: State facility or pipeline, segment, county, and state when supplied.
+What failed: Distinguish the recorded equipment category from the actual damaged component. Identify the initial failure and any secondary failure. A functioning alarm or shutdown is not itself a failed component. Say when no broken part is identified.
+What happened: Describe the supported event sequence. Do not confuse physical pipe lowering with pressure reduction.
+Root cause: Attribute CAUSE and CAUSE_DETAILS to the operator, then describe the supported mechanism. Keep suspected mechanisms suspected and unknown underlying causes unknown. Flag a category/narrative mismatch rather than inventing an explanation.
+Contributing factors: Separate relevant recorded conditions from established causal contributions. Detection, repair, corrective actions, and future investigations are not causes. The failed-item category alone does not establish a contributing factor. Say when no additional contribution is established.
+Evidence / certainty: Identify the actual examination, analysis, observations, and evidence limits. Blank fields mean information is not supplied, not that an investigation never occurred. SCADA_DETECTION_IND concerns assistance with initial indication; SCADA_CONF_IND concerns assistance with confirmed discovery. INVESTIGATION_STATUS fields concern controllers/control-room investigation, not every equipment investigation. IO_FOLLOW_PROCEDURE_IND=YES means failure to follow procedures. POST_CONSTR_PRESSURE_TEST_VAL is in psig. DEPTH_OF_COVER is in inches. MCF means thousand cubic feet; retain MCF rather than changing it to cubic feet. Do not replace evidence with claims about the quality of your answer.

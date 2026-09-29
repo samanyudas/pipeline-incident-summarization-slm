@@ -1,0 +1,9 @@
+Summarize only the supplied report in exactly these seven bullets. Use plain language.
+- When: Give recorded incident and discovery times. Flag conflicts with the narrative.
+- Where: Give the facility or line and location.
+- What failed: Name the damaged item and physical failure. If unspecified, say so.
+- What happened: Describe the event sequence.
+- Root cause: Give the operator's apparent cause and reported mechanism. Label suspicions and unknowns.
+- Contributing factors: Give only supported contributors. Separate observed conditions from proven causes. If none are established, say so.
+- Evidence / certainty: Name the evidence supporting the account and its limits.
+Do not invent or reverse facts. Preserve numbers, units, and negations. MCF means thousand cubic feet. Detection methods, repairs, and planned investigations are not causes.
